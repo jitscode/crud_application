@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body bgcolor='cyan'>
+<h1><a href="index.jsp">HOME</a></h1>
+<h2 style="text-align:center">User Registration Form</h2>
+<form action="insert" method="post">
+<table style="colour:red; margin-left:auto; margin-right:auto; margin-bottom:auto; margin-top:auto">
+<tr><td>
+Name</td><td> <input type="text" name="name">
+</td>
+</tr>
+<tr>
+<td>
+Password</td>
+<td><input type="password" name="password"></td>
+</tr>
+<tr>
+<td>
+Confirm Password</td>
+<td><input type="password" name="cpass"></td>
+</tr>
+<tr>
+<td>
+Email</td>
+<td><input type="email" name="email"></td>
+</tr>
+<tr><td>
+Gender
+<input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="female">Female
+</td></tr>
+<tr><td>
+Country
+<select name="country" style="width:150px;color='blue'">
+<option>India</option>
+<option>Usa</option>
+<option>Russia</option>
+<option>Japan</option>
+</select>
+</td></tr>
+<tr><td>
+<center><input  type="submit" value="Adduser"></center></td></tr>
+</table>
+</form>
+<h3 style="text-align:center"><center><a href="viewservlet">View Employee</a></center></h3>
+</body>
+</html>
